@@ -1,3 +1,4 @@
+print("Executed Anti Fe Kill")
 for i,v in pairs(game.Players:GetChildren()) do
     if v.Character ~= nil and v ~= game.Players.LocalPlayer then
         if v.Character:FindFirstChild("Right Arm") then
